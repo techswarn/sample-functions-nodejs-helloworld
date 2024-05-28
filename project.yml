@@ -1,7 +1,7 @@
-environment:
-  LOG_DESTINATIONS: ${LOG_DESTINATIONS}
 packages:
   - name: sample
+    environment:
+      LOG_DESTINATIONS: ${LOG_DESTINATIONS}
     actions:
       - name: hello
         runtime: "nodejs:default"
