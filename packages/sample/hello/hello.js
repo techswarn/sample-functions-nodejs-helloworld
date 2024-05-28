@@ -3,7 +3,7 @@ function main(args) {
   let greeting = "Hello " + name + "!";
   console.log(greeting);
   try {
-    fetch("https://go.techenv.dev/api/v1/") // api for the get request
+    fetch("https://apps.techenv.dev/api/v1/") // api for the get request
       .then((response) => {
         response.json();
         console.log(response.json());
