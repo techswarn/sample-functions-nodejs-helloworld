@@ -2,6 +2,7 @@ packages:
   - name: sample
     environment:
       LOG_DESTINATIONS: ${LOG_DESTINATIONS}
+      FOO: ${FOO}
     actions:
       - name: hello
         runtime: "nodejs:18"
